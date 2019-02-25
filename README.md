@@ -6,6 +6,7 @@
 
 ```
   git clone https://github.com/gbif/pipelines
+  cd pipelines
   git checkout measurement-extension
   mvn clean package install -U -DskipTests
 ```
